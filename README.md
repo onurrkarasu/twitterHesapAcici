@@ -1,17 +1,15 @@
-# Twitter-Account-Creator
-The bot that allows us to open an account on Twitter
-## How does it work?
-- Provide the necessary information via settings.json.
-- Upload balance on smsactiveru.
-- Also, selenium, smsactiveru, imaplib libraries MUST be installed!
-- If you run main.py, it starts processing.
+# Twitter-Hesap-Oluşturucu
+Twitter'da hesap açmamızı sağlayan bot
+## O nasıl çalışır?
+- settings.json üzerinden gerekli bilgileri sağlayın.
+- smsactiveru'ya bakiye yükleyin.
+- Ayrıca Selenium, smsactiveru, imaplib kitaplıkları da kurulmalıdır!
+- main.py'yi çalıştırırsanız, işlemeye başlar.
 
 
-## Quick setup
+## Hızlı ayar
 ````
-python -m pip install selenium
-python -m pip install smsactivateru
-python -m pip install requests
+piton -m pip selenyum yükleyin
+python -m pip kurulum smsactivateru
+piton -m pip yükleme istekleri
 ````
-## There was an error!
-Send it in the Issues section, I don't have much interest in the project so I might not be able to look.
